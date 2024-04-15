@@ -33,6 +33,7 @@ exports.register = async (req, res) => {
     // after creating new user in DB send the token
     cookieToken(user, res);
   } catch (err) {
+    console.error("Error during user registration:", err);
     res.status(500).json({
       message: 'Internal server Error',
       error: err,
