@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema({
   picture: {
     type: String,
     required: true,
-    default: 'https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/external-Motel-locations-color-line-others-cattaleeya-thongsriphong.png'
+    //default: 'https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/external-Motel-locations-color-line-others-cattaleeya-thongsriphong.png'
   }
 });
 
